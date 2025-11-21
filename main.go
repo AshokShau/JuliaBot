@@ -38,8 +38,8 @@ func main() {
 	ownerId, _ = strconv.ParseInt(os.Getenv("OWNER_ID"), 10, 64)
 
 	cfg := tg.NewClientConfigBuilder(int32(appId), os.Getenv("APP_HASH")).
-		WithLogger(tg.NewLogger(tg.LogInfo)).
-		WithReqTimeout(100).
+		WithLogger(tg.NewLogger(tg.DebugLevel)).
+		//WithReqTimeout(100).
 		Build()
 
 	client, err := tg.NewClient(cfg)
