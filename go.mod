@@ -34,4 +34,4 @@ require (
 	golang.org/x/text v0.31.0 // indirect
 )
 
-replace github.com/amarnathcjd/gogram => github.com/AshokShau/gogram v0.0.0-20251121214704-441b3b8cf220
+replace github.com/amarnathcjd/gogram => github.com/AshokShau/gogram v0.0.0-20251122200101-1901c303401e
